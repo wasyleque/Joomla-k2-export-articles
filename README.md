@@ -13,7 +13,7 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------<br>
 <h2>Than you should set category mapping if the ID`s are different with newly created categories:</h2>
 <h2><br>
-// Mapowanie kategorii (category mappings)</h2>
+// Mapowanie kategorii (category mapping s it shoould diiffer with Your current category mappingsgs number)</h2>
 <span style="font-weight: bold;">$category_map = [</span><br style="font-weight: bold;">
 <span style="font-weight: bold;">&nbsp;&nbsp;&nbsp; 1 =&gt; 8,</span><br style="font-weight: bold;">
 <span style="font-weight: bold;">&nbsp;&nbsp;&nbsp; 2 =&gt; 9,</span><br style="font-weight: bold;">

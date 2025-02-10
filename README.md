@@ -208,5 +208,5 @@ echo 'UPDATE jos_content SET images = ' . $image_data . ' WHERE id = '
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; echo $k2item.' - '.$filename.'&lt;br&gt;';<br>
 &nbsp;&nbsp;&nbsp; }<br>
 }<br>
-
+You should mail me if You need help on serwis@omega-lubin.com
 </body></html>

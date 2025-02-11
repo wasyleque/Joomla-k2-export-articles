@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html><head><meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>fuckit</title></head><body>
+<html><head><meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Joomla K2 article export</title></head><body>
 <h2>K2 editor is the plugin for Joomla but it was supported till Joomla version 3</h2>
 <h2>As You know now we have newer version of Joomla so ... Need to disable the plugin to succesfully upgrade Your Joomla CMS.</h2>
 <h2>Unfortunately disabling K2 plugin is equally to drop all the articles which we made before.</h2>
@@ -94,7 +94,7 @@ fclose($log_file);<br>
 $conn-&gt;close();<br>
 <br>
 ------------------------------------------------------------------------------------------------------------------------------------------------<br>
-<h2>... but after that nothing still works so ...</h2>
+<h1>... but after that nothing still works so ...</h1>
 <h2>in your hosting phpmyadmin page You should run those queries:</h2>
 UPDATE `jos_menu` SET link = REPLACE(link, 'com_k2', 'com_content') WHERE link LIKE '%com_k2%';<br>
 <br>
@@ -208,5 +208,5 @@ echo 'UPDATE jos_content SET images = ' . $image_data . ' WHERE id = '
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; echo $k2item.' - '.$filename.'&lt;br&gt;';<br>
 &nbsp;&nbsp;&nbsp; }<br>
 }<br>
-You should mail me if You need help on serwis@omega-lubin.com
+<h1>You should mail me if You need help on wasyl@o2.pl</h1>h1>
 </body></html>
